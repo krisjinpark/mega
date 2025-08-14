@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mega Coffee</title>
+  
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <!-- 
+    * 브라우저 사이즈에 맞게 선택하도록 여러 크기의 파비콘 활용 
+    - 16x16 : 브라우저 탭
+    - 32x32 : 고해상도 디스플레이 (Retina 등)
+    - 48x48, 64x64, 192x192, 512x512 추가 
+  -->
+  <link rel="icon" href="images/favicon.ico" sizes="16x16">
+  <link rel="icon" href="images/favicon1.ico" sizes="32x32">
+
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/layout.css">
+  
+  <script src="js/jquery-3.1.1.min.js"></script>
+  <script src="js/script.js"></script>
+  
+  <link rel="manifest" href="manifest.json">
+  
+</head>
+<body>
+  <header id="top">
+    <h1>
+      <a href="index.html"><img src="images/logo.png" alt="Mega Coffee"><img src="images/logo.png" alt="Mega Coffee"><img src="images/logo_b.png" alt="Mega Coffee"></a>
+    </h1>
+    <a href="#" class="menu_icon"><i class="fas fa-bars icon black"></i></a>
+  </header><!-- top -->
+  
+  <div id="menu_wrap">
+    <a href="#" class="menu_close"><i class="fas fa-times icon white"></i></a>
+    <h2 class="menu_logo"><img src="images/logo_w.png" alt="Mega Coffee"></h2>
+    <nav id="gnb">
+      <ul>
+        <li><a href="#">메가커피</a>
+          <ul class="submenu">
+            <li><a href="#page1" class="selected connect">HOME</a></li>
+          </ul>
+        </li>
+        <li><a href="#">메가 스토리</a>
+          <ul class="submenu">
+            <li><a href="#page2" class="connect">브랜드</a></li>
+            <li><a href="#">BI</a></li>
+            <li><a href="#">오시는 길</a></li>
+          </ul>
+        </li>
+        <li><a href="#">메뉴소개</a>
+          <ul class="submenu">
+            <li><a href="#page2" class="connect"> 음료</a></li>
+            <li><a href="#">푸드</a></li>
+            <li><a href="#">상품</a></li>
+          </ul>
+        </li>
+        <li><a href="#">매장</a>
+          <ul class="submenu">
+            <li><a href="#">매장찾기</a></li>
+          </ul>
+        </li>
+        <li><a href="#">창업안내</a>
+          <ul class="submenu">
+            <li><a href="#"> 개설비용</a></li>
+            <li><a href="#">인테리어</a></li>
+            <li><a href="#">창업문의</a></li>
+            <li><a href="#">창업뉴스</a></li>
+          </ul>
+        </li>
+        <li><a href="#">메가소식</a>
+          <ul class="submenu">
+            <li><a href="#page4" class="connect"> 공지사항</a></li>
+            <li><a href="#"> 이벤트</a></li>
+            <li><a href="#"> FAQ</a></li>
+            <li><a href="#">고객의 소리</a></li>
+          </ul>
+        </li>
+        <li><a href="#">채용</a>
+          <ul class="submenu">
+            <li><a href="#page5" class="connect">채용안내</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </div><!-- menu_wrap -->
+
+
+
+
+  <div id="container">
+
+
+    <!-- page1(S) -->
+    <section id="page1">
+
+      <div class="title_wrap">
+        <div class="title_info">메가MGC커피 봄시즌 신메뉴</div>
+        <h2 class="title">
+          <span class="title_bg"></span>
+          <span class="point">봄날의 행복을 그리다</span>
+        </h2>
+      </div><!-- title_wrap -->
+
+      <div class="page1_con_wrap">
+        <p class="page1_theme">봄이 그린 애플</p>
+        <p class="page1_theme_con">
+          봄날의 행복을 그리는 봄이 그린 애플 <br>
+          봄날의 따뜻함을 채우는 봄이 채운 든든함 <br>
+          지금 바로 가까운 메가MGC커피에서 만나보세요!
+        </p>
+        <a href="#" class="page1_btn">메뉴 더보기</a>
+        <div class="page1_list_wrap"><!-- 화면크기(100%) -->
+          <ul class="page1_list_inner"><!-- 리스트 갯수 -->
+            <li>
+              <a href="#">
+                <img src="images/drink1.jpg" alt="drink">
+                <span>그린애플 펄 스무디</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/drink2.jpg" alt="drink">
+                <span>그린애플 요거트스무디</span>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <img src="images/drink3.jpg" alt="drink">
+                <span>그린애플 콤부에이드</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div><!-- page1_con_wrap -->
+      
+    </section>
+    <!-- page1(E) -->
+    
+
+
+
+
+
+    <!-- page2(S) -->
+    <section id="page2">
+
+        <div class="title_wrap">
+          <h2 class="title">
+            <span class="title_bg"></span>
+            <span class="point">MEGA COFFEE</span>
+          </h2>
+        </div><!-- title_wrap -->
+
+        <div class="title_info2">
+          메가MGC커피는, 커피 및 음료전문점으로 다양한 음료와 100% 아라비카 원두의 진한 커피를 맛 보실수 있습니다.  <br><br>
+          더 크고 더 맛있다! <br><br>
+          빅사이즈에 우수한 품질의 커피&음료를 합리적인 가격으로 제공하여 부담없이 여유롭게 다양하고 착한 음료를 제공합니다.
+        </div><!-- title_info2 -->
+
+        <div class="page2_con_wrap">
+          <ul class="com_list">
+            <li><a href="#"><img src="images/brand02_1.jpg" alt="company"></a></li>
+            <li><a href="#"><img src="images/brand02_2.jpg" alt="company"></a></li>
+            <li><a href="#"><img src="images/brand02_3.jpg" alt="company"></a></li>
+          </ul><!-- com_list -->
+          <div class="page_img">
+            <img src="images/brand_main.jpg" alt="brand">
+          </div><!-- page_img -->
+        </div><!-- page2_con_wrap -->
+
+    </section>
+    <!-- page2(E) -->
+
+
+    <!-- page1(3) -->
+    <section id="page3">
+
+      <div class="title_wrap">
+        <div class="title_info">메가MGC커피 봄시즌 신메뉴</div>
+        <h2 class="title">
+          <span class="title_bg"></span>
+          <span class="point">봄이 찾아오는 소리</span>
+        </h2>
+      </div><!-- title_wrap -->
+
+      <div class="page3_con_wrap">
+        <div class="page3_subtitle">봄이 그린 애플</div>
+        <div class="page3_contxt">
+          봄날의 행복을 그리는 봄이 그린 애플 <br>
+          봄날의 따뜻함을 채우는 봄이 채운 든든함 <br>
+          지금 바로 가까운 메가MGC커피에서 만나보세요!
+        </div><!-- page3_contxt -->
+        <div class="page_img">
+          <img src="images/drink_main.jpg" alt="drink">
+        </div><!-- page_img -->
+      </div><!-- page3_con_wrap -->
+
+    </section>
+    <!-- page3(E) -->
+
+
+
+
+
+
+
+
+    <!-- page4(S) -->
+    <section id="page4">
+
+      <div class="title_wrap">
+        <h2 class="title">
+          <span class="point">메가MGC커피 공지사항</span>
+        </h2>
+        <div class="title_info2">메가MGC커피 소식을 알려드립니다.</div>
+      </div><!-- title_wrap -->
+
+      <div class="page4_con_wrap">
+        <div class="search_wrap">
+          <div>
+            <select id="subject">
+              <option value="제목">제목</option>
+              <option value="내용">내용</option>
+              <option value="작성자">작성자</option>
+            </select><!-- subject -->
+            <input type="text" id="search_word" placeholder="검색어를 입력하세요">
+          </div>
+          <div>
+            <input type="submit" value="검색" id="search_btn">
+          </div>
+        </div><!-- search_wrap -->
+
+
+        <table id="information">
+          <caption>메가 소식</caption>
+          <tr>
+            <th>제목</th>
+            <th>날짜</th>
+          </tr>
+          <tr>
+            <td>메가MGC커피 원두 관련 공지	</td>
+            <td>2023-02-21</td>
+          </tr>
+          <tr>
+            <td>탄소중립실천포인트제 도입 안내	</td>
+            <td>2023-03-16</td>
+          </tr>
+          <tr>
+            <td>메가MGC커피 영양성분표	</td>
+            <td>2023-03-14</td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <a href="#">처음</a>
+              <a href="#" class="current">1</a>
+              <a href="#">마지막</a>
+            </td>
+          </tr>
+        </table><!-- information -->
+
+      </div><!-- page4_con_wrap -->
+
+    </section>
+    <!-- page4(E) -->
+
+
+
+
+
+
+
+
+    <!-- page5(S) -->
+    <section id="page5">
+
+      <div class="title_wrap">
+        <h2 class="title">
+          <span class="point">메가MGC 채용안내</span>
+        </h2>
+        <div class="title_info5">(주)앤하우스와 미래를 함께할 열정적인 인재를 찾습니다.</div>
+        <div class="title_info5_con">
+          (주)앤하우스는 2500호점의 메가MGC커피를 운영하고 있는 카페 프랜차이즈 전문 기업입니다. <br>
+          우리는 대한민국 카페 산업을 선도합니다.
+        </div><!-- title_info5_con -->
+      </div><!-- title_wrap -->
+
+      <div class="page5_con_wrap">
+        <input type="button" value="입사지원하기" id="recruit_btn">
+        <div class="fig_wrap">
+          <figure>
+            <img src="images/recruit_job1.jpg" alt="recruit">
+            <figcaption>
+              <span class="rec_txt1">Creativity</span>
+              <span class="rec_txt2">창의</span>
+              <span class="rec_txt3">창의력을 바탕으로 창의적인 사고와 다양성을 존중하고 상호협력하에 창의적으로 선도하는 인재</span>
+            </figcaption>
+          </figure>
+          <figure>
+            <img src="images/recruit_job2.jpg" alt="recruit">
+            <figcaption>
+              <span class="rec_txt1">Ownership</span>
+              <span class="rec_txt2">오너십</span>
+              <span class="rec_txt3">맡은 일을 끝까지 책임지고 모든 과정에 최선을 다하고 충실히 수행하는 인재</span>
+            </figcaption>
+          </figure>
+        </div><!-- fig_wrap -->
+      </div><!-- page5_con_wrap -->
+
+    </section>
+    <!-- page5(E) -->
+
+  </div><!-- container -->
+  
+
+
+  <footer id="bottom">
+    <ul class="fnb">
+      <li><a href="#">이용약관</a></li>
+      <li><a href="#">개인정보취급방침</a></li>
+    </ul><!-- fnb -->
+
+    <h3><a href="#"><img src="images/logo_w.png" alt="Mega Coffee"></a></h3>
+    <ul class="sns">
+      <li><a href="#"><img src="images/sns_blog.png" alt="sns"></a></li>
+      <li><a href="#"><img src="images/sns_facebook.png" alt="sns"></a></li>
+      <li><a href="#"><img src="images/sns_instagram.png" alt="sns"></a></li>
+      <li><a href="#"><img src="images/sns_smartstore.png" alt="sns"></a></li>
+    </ul><!-- sns -->
+
+    <ul class="fnb_info">
+      <li><strong>주식회사 앤하우스대표자 김대영</strong></li>
+      <li>창업상담 1588-0656</li>
+      <li>고객센터 1588-8298</li>
+      <li>FAX 02-325-5199</li>
+      <li>사업자등록번호 105-87-51367</li>
+      <li>서울특별시 강남구 강남대로 518 11층, 13층 (주)앤하우스</li>
+      <li>개인정보보호관리책임자 이호민</li>
+    </ul><!-- fnb_info -->
+  </footer><!-- bottom -->
+
+
+  <a href="#top" class="top_btn"><i class="far fa-arrow-alt-circle-up icon yellow"></i></a>
+
+  
+<!-- 서비스 워커 등록 -->
+<script>
+ if ('serviceWorker' in navigator) {
+ navigator.serviceWorker
+ .register('./service_worker.js')
+ .then(function () {
+ console.log('서비스 워커가 등록됨!');
+ })
+ }
+</script>
+
+
+  
+</body>
+</html>
